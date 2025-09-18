@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Smooth transition for theme change */
+body {
+  transition-property: background-color, color;
+  transition-duration: 500ms;
+}
